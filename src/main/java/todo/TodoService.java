@@ -18,4 +18,8 @@ public class TodoService {
     public void addTodo(Todo todo){
         todos.add(todo);
     }
+
+    public void deleteTodo(Todo todo){
+        todos.remove(todo);
+    }
 }
