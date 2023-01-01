@@ -17,7 +17,7 @@ public class TodoServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest request, HttpServletResponse response)
             throws IOException, ServletException {
-        request.setAttribute("todos", todoService.retrieveTodos());
+        request.getSession().setAttribute("todos", todoService.retrieveTodos());
         request.getRequestDispatcher("/WEB-INF/views/todo.jsp").forward(request, response);
     }
 }
