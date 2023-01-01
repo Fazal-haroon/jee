@@ -12,8 +12,11 @@
 </head>
 <body>
 <%--<p>My name is ${name} and password is ${password}</p>--%>
+<p><font color="#dc143c">${errorMessage}</font></p>
 <form action="/loginform.do" method="post">
-    Name : <input name="name" type="text" /> <input type="submit" />
+    Username : <input name="name" type="text" />
+    Password : <input name="password" type="password" />
+    <input type="submit" />
 </form>
 </body>
 </html>
