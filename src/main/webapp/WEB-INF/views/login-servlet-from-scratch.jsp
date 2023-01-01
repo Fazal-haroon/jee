@@ -16,6 +16,7 @@
 <p>Login Servlet From Scratch with JSP</p>
 <br>
 <p>This is my First JSP with parameter name is ${name}</p>
+<p>Password is ${password}</p>
 <br>
 <%
     System.out.println("request in scriptlets = " + request);

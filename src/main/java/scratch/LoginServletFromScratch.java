@@ -19,6 +19,7 @@ public class LoginServletFromScratch extends HttpServlet {
         String name = request.getParameter("name");
         System.out.println("name = " + name);
         request.setAttribute("name", name);
+        request.setAttribute("password", request.getParameter("password"));
 
         request.getRequestDispatcher("/WEB-INF/views/login-servlet-from-scratch.jsp").forward(request, response);
     }
