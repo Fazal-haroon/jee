@@ -6,7 +6,7 @@
   <display-name>To do List</display-name>
 
   <welcome-file-list>
-    <welcome-file>loginS.do</welcome-file>
+    <welcome-file>loginform.do</welcome-file>
   </welcome-file-list>
 
 </web-app>

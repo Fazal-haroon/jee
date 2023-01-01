@@ -11,11 +11,9 @@
     <title>Login Servlet</title>
 </head>
 <body>
-<p>My name is ${name} and password is ${password}</p>
+<%--<p>My name is ${name} and password is ${password}</p>--%>
 <form action="/loginform.do" method="post">
-    Enter your name <input type="text" name="name" />
-    <br>
-    <input type="submit" value="Login">
+    Name : <input name="name" type="text" /> <input type="submit" />
 </form>
 </body>
 </html>
