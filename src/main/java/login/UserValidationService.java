@@ -1,4 +1,4 @@
-package scratch;
+package login;
 
 public class UserValidationService {
     public boolean isUserValid(String user, String password){

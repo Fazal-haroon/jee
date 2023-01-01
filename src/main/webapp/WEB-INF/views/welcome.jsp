@@ -12,6 +12,6 @@
 </head>
 <body>
 <p>welcome ${name}</p>
-<p>password ${password}</p>
+<p>${todos}</p>
 </body>
 </html>

@@ -8,7 +8,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Login Servlet</title>
+    <title>login Servlet</title>
 </head>
 <body>
 <%--<p>My name is ${name} and password is ${password}</p>--%>
