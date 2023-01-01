@@ -15,7 +15,7 @@
 <br>
 <p>Login Servlet From Scratch with JSP</p>
 <br>
-<p>This is my First JSP</p>
+<p>This is my First JSP with parameter name is ${name}</p>
 <br>
 </body>
 </html>
