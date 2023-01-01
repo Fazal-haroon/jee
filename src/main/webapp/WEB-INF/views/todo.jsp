@@ -20,5 +20,8 @@
     </c:forEach>
 </ol>
 <%--<p>${todos}</p>--%>
+<form action="/todo.do" method="post">
+    <input type="text" name="todo" /> <input type="submit" value="Add" />
+</form>
 </body>
 </html>
