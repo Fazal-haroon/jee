@@ -33,5 +33,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="PROVIDED" name="Maven: javax:javaee-web-api:8.0.1" level="project" />
     <orderEntry type="library" name="Maven: jstl:jstl:1.2" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:bootstrap:5.2.3" level="project" />
+    <orderEntry type="library" name="Maven: org.webjars:jquery:3.6.1" level="project" />
   </component>
 </module>

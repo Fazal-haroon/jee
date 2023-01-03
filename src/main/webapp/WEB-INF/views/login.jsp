@@ -25,7 +25,7 @@
             padding: 0 15px;
         }
     </style>
-    <title>Todo's</title>
+    <title>Login</title>
 </head>
 <body>
 <nav role="navigation" class="navbar navbar-default">
@@ -47,16 +47,12 @@
 </nav>
 
 <div class="container">
-    <H1>Welcome ${name}</H1>
-    <p>Your Todo's are:</p>
-    <ol>
-        <c:forEach items="${todos}" var="todo">
-            <li>${todo.name} &nbsp; &nbsp; <a href="/delete-todo.do?todo=${todo.name}">Delete</a></li>
-        </c:forEach>
-    </ol>
-    <%--<p>${todos}</p>--%>
-    <form action="/add-todo.do" method="post">
-        <input type="text" name="todo"/> <input type="submit" value="Add"/>
+    <%--<p>My name is ${name} and password is ${password}</p>--%>
+    <p><font color="#dc143c">${errorMessage}</font></p>
+    <form action="/loginform.do" method="post">
+        Username : <input name="name" type="text" />
+        Password : <input name="password" type="password" />
+        <input type="submit" />
     </form>
 </div>
 
