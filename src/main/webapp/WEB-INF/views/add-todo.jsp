@@ -49,7 +49,10 @@
 <div class="container">
     Your New Action Item:
     <form action="/add-todo.do" method="post">
-        New Todo: <input type="text" name="todo"/>
+        Description: <input type="text" name="todo"/>
+        <br>
+        Category: <input type="text" name="category"/>
+        <br>
         <input type="submit" value="Add"/>
     </form>
 </div>
