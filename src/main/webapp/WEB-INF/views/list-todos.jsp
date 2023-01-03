@@ -54,10 +54,16 @@
             <li>${todo.name} &nbsp; &nbsp; <a href="/delete-todo.do?todo=${todo.name}">Delete</a></li>
         </c:forEach>
     </ol>
+    <p>
+        <font color="red">${errorMessage}</font>
+    </p>
+    <a
+            href="/add-todo.do">Add New Todo</a>
     <%--<p>${todos}</p>--%>
-    <form action="/add-todo.do" method="post">
-        <input type="text" name="todo"/> <input type="submit" value="Add"/>
-    </form>
+<%--    <form action="/add-todo.do" method="post">--%>
+<%--        New Todo: <input type="text" name="todo"/>--%>
+<%--        <input type="submit" value="Add"/>--%>
+<%--    </form>--%>
 </div>
 
 <footer class="footer">
