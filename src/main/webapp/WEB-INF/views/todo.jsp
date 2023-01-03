@@ -40,7 +40,7 @@
             <li><a href="/list-todo.do">Todos</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
-            <li><a href="/loginform.do">Login</a></li>
+            <li><a href="/logout.do">Logout</a></li>
         </ul>
     </div>
 
