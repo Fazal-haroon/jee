@@ -49,15 +49,26 @@
 <div class="container">
     <H1>Welcome ${name}</H1>
     <p>Your Todo's are:</p>
-    <ol>
+    <table class="table table-striped">
+        <thead>
+        <th>Description</th>
+        <th>Category</th>
+        <th>Actions</th>
+        </thead>
+        <tbody>
         <c:forEach items="${todos}" var="todo">
-            <li>${todo.name} &nbsp; ${todo.category} &nbsp; <a href="/delete-todo.do?todo=${todo.name}&category=${todo.category}">Delete</a></li>
+        <tr>
+            <td>${todo.name}</td>
+            <td>${todo.category}</td>
+            <td><a class="btn btn-danger" href="/delete-todo.do?todo=${todo.name}&category=${todo.category}">Delete</a></td>
+        </tr>
         </c:forEach>
-    </ol>
+        </tbody>
+    </table>
     <p>
         <font color="red">${errorMessage}</font>
     </p>
-    <a
+    <a class="btn btn-success"
             href="/add-todo.do">Add New Todo</a>
     <%--<p>${todos}</p>--%>
 <%--    <form action="/add-todo.do" method="post">--%>

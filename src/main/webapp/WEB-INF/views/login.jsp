@@ -50,9 +50,13 @@
     <%--<p>My name is ${name} and password is ${password}</p>--%>
     <p><font color="#dc143c">${errorMessage}</font></p>
     <form action="/loginform.do" method="post">
-        Username : <input name="name" type="text" />
-        Password : <input name="password" type="password" />
-        <input type="submit" />
+        <fieldset class="form-label">
+        <label>Username</label> <input class="form-control" name="name" type="text"/>
+        </fieldset>
+        <fieldset class="form-label">
+        <label>Password</label> <input class="form-control" name="password" type="password"/>
+        </fieldset>
+        <input class="btn btn-success" type="submit" value="login"/>
     </form>
 </div>
 

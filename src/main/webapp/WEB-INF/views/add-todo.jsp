@@ -49,11 +49,13 @@
 <div class="container">
     Your New Action Item:
     <form action="/add-todo.do" method="post">
-        Description: <input type="text" name="todo"/>
-        <br>
-        Category: <input type="text" name="category"/>
-        <br>
-        <input type="submit" value="Add"/>
+        <fieldset class="form-label">
+            <label>Description</label> <input type="text" name="todo" class="form-control"/><br>
+        </fieldset>
+        <fieldset class="form-label">
+            <label>Category</label><input type="text" name="category" class="form-control"/><br>
+        </fieldset>
+        <input class="btn btn-success" type="submit" value="Add"/>
     </form>
 </div>
 
